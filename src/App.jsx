@@ -17,11 +17,13 @@ import Reservations from './pages/Reservations'
 import SearchResults from './pages/SearchResults'
 import Terms from './pages/Terms'
 import UserProfile from './pages/UserProfile'
+import Header from './components/Header'
 
 
 function App() {
   return (
     <div>
+      <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
