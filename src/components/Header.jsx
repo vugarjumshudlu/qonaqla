@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="bg-[#257C7F] flex justify-center">
-      <div className="max-w-screen-xl w-full h-[60px] grid grid-cols-3 items-center px-5 text-white">
+      <div className="max-w-screen-xl w-full h-[80px] grid grid-cols-3 items-center px-5 text-white">
         <div className="text-4xl font-extrabold mr-10 font-[labora] tracking-wider">
           <Link className="hover:text-[#FF6500]" to="/">
             qonaqla
