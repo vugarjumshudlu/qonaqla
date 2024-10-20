@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 
 function Error() {
   return (
-    <div>Error</div>
+    <div>
+      <Header/>
+      Bu Sehife Yoxdur</div>
   )
 }
 
